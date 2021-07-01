@@ -3,17 +3,18 @@ import PropTypes from "prop-types";
 import ProjectTag from "./ProjectTag";
 
 const ProjectCard = (props) => {
-  const { name, description, image, tech } = props;
+  const { name, description, image, tech, link } = props;
   const imgAlt = name + " image";
 
   return (
-    <div className="max-w-sm rounded-sm overflow-hidden shadow-lg m-5">
+    <a href={link} className="flex">
+    <div className="flex flex-col max-w-sm rounded-sm overflow-hidden shadow-lg m-5">
       <img
-        className="object-scale-down h-60 m-auto p-2"
+        className="object-scale-down h-60 m-auto p-2 flex-shrink-0"
         src={image}
         alt={imgAlt}
       />
-      <div className="mx-6 my-4">
+      <div className="mx-6 my-4 flex-grow">
         <div className="font-medium text-base text-gray-darker mb-4">
           {name}
         </div>
@@ -25,6 +26,7 @@ const ProjectCard = (props) => {
         ))}
       </div>
     </div>
+    </a>
   );
 };
 
@@ -33,6 +35,7 @@ ProjectCard.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
   tech: PropTypes.arrayOf(PropTypes.string),
+  link: PropTypes.string,
 };
 
 export default ProjectCard;

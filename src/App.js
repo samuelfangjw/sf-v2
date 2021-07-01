@@ -8,6 +8,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
+      <div id="projects"/>
       <Projects />
     </>
   );
