@@ -5,8 +5,8 @@ import React from "react";
 import { mailto, links } from "../Constants";
 
 const socialButton = (icon, link) => (
-  <a href={link} target="_blank" rel='noreferrer' className="mr-3">
-    <FontAwesomeIcon icon={icon} size="lg"/>
+  <a href={link} target="_blank" rel="noreferrer" className="mr-3">
+    <FontAwesomeIcon icon={icon} size="lg" />
   </a>
 );
 

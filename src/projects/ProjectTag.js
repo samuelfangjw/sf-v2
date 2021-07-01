@@ -2,74 +2,70 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const colors = {
-  blue: "blue",
-  green: "green",
-  yellow: "yellow"
-}
+  blue: "bg-blue-200 text-blue-700",
+  green: "bg-green-200 text-green-700",
+  yellow: "bg-yellow-200 text-yellow-700",
+};
 
 export const tagNames = {
   js: {
     color: colors.green,
-    name: "JavaScript"
+    name: "JavaScript",
   },
   ts: {
     color: colors.green,
-    name: "TypeScript"
+    name: "TypeScript",
   },
   java: {
     color: colors.green,
-    name: "Java"
+    name: "Java",
   },
   javaee: {
     color: colors.green,
-    name: "Java EE"
+    name: "Java EE",
   },
   react: {
     color: colors.blue,
-    name: "ReactJS"
+    name: "ReactJS",
   },
   angular: {
     color: colors.blue,
-    name: "Angular"
+    name: "Angular",
   },
   androidstudio: {
     color: colors.blue,
-    name: "Android Studio"
+    name: "Android Studio",
   },
   javafx: {
     color: colors.blue,
-    name: "JavaFX"
+    name: "JavaFX",
   },
   express: {
     color: colors.yellow,
-    name: "Express"
+    name: "Express",
   },
   googlecloud: {
     color: colors.yellow,
-    name: "Google Cloud"
+    name: "Google Cloud",
   },
   firestore: {
     color: colors.yellow,
-    name: "Cloud Firestore"
+    name: "Cloud Firestore",
   },
   mongodb: {
     color: colors.yellow,
-    name: "MongoDB"
+    name: "MongoDB",
   },
   node: {
     color: colors.yellow,
-    name: "Node.js"
+    name: "Node.js",
   },
-}
+};
 
 const ProjectTag = (props) => {
   const tag = tagNames[props.name];
-  
   const { name, color } = tag;
-
-  const bgColor = `bg-${color}-200`;
-  const textColor = `text-${color}-700`;
-  const className = ["block p-1 m-1 w-max  text-xs rounded", bgColor, textColor].join(" ");
+  const className = "block p-1 m-1 w-max text-xs rounded" + " " + color;
 
   return <span className={className}>{name}</span>;
 };
