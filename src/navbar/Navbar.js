@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import logo from "../images/logo.png";
 
 const mobileButton = (shape) => (
   <svg
@@ -44,11 +45,11 @@ const Navbar = () => {
             </button>
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex-shrink-0 flex items-center">
-              {/* placeholder for logo */}
+            <div className="flex-shrink-0 flex items-center w-14">
+              <img src={logo} alt="Site Logo" />
             </div>
             <div className="hidden sm:block sm:ml-6">
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 mt-3">
                 {navItems.map((item) => (
                   <a
                     href={`#${item.toLowerCase()}`}
