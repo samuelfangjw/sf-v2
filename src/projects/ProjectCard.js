@@ -6,8 +6,8 @@ const ProjectCard = (props) => {
   const imgAlt = name + " image";
 
   return (
-    <div className="max-w-sm rounded-sm overflow-hidden shadow-lg m-16">
-      <img className="object-scale-down h-64" src={image} alt={imgAlt} />
+    <div className="max-w-sm rounded-sm overflow-hidden shadow-lg m-5">
+      <img className="object-scale-down h-64 m-auto p-2" src={image} alt={imgAlt} />
       <div className="mx-6 my-4 border-b border-gray-light">
         <div className="font-medium text-base text-gray-darker mb-4">
           {name}

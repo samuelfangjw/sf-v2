@@ -12,9 +12,11 @@ const Projects = () => {
           projects as well as open-source software I regularly contribute to.
         </p>
       </div>
-      {projectdescriptions.map((project, idx) => (
-        <ProjectCard {...project} key={idx} />
-      ))}
+      <div className="flex">
+        {projectdescriptions.map((project, idx) => (
+          <ProjectCard {...project} key={idx} />
+        ))}
+      </div>
     </section>
   );
 };
