@@ -9,7 +9,7 @@ const Hero = () => {
             Hi there! 👋 I&apos;m Samuel,
           </h1>
           <p>
-            A computer science student at the National University of Singapore.
+            a computer science student at the National University of Singapore.
           </p>
         </div>
       </div>
