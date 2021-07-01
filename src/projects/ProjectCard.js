@@ -7,8 +7,8 @@ const ProjectCard = (props) => {
   const imgAlt = name + " image";
 
   return (
-    <a href={link} className="flex">
-    <div className="flex flex-col max-w-sm rounded-sm overflow-hidden shadow-lg m-5">
+    <a href={link} target="_blank" rel='noreferrer' className="flex">
+    <div className="flex flex-col max-w-sm rounded-sm overflow-hidden shadow-lg m-5 hover:bg-gray-100 hover:shadow-2xl">
       <img
         className="object-scale-down h-60 m-auto p-2 flex-shrink-0"
         src={image}
