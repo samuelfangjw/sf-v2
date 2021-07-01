@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="flex-shrink-0 flex items-center w-14">
               <img src={logo} alt="Site Logo" />
             </div>
-            <div className="hidden sm:block sm:ml-6">
+            <div className="hidden sm:block sm:ml-4">
               <div className="flex space-x-4 mt-3">
                 {navItems.map((item) => (
                   <a
