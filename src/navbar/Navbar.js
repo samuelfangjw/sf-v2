@@ -22,7 +22,7 @@ const mobileButton = (shape) => (
 const closeButton = mobileButton("M4 6h16M4 12h16M4 18h16");
 const openButton = mobileButton("M6 18L18 6M6 6l12 12");
 
-const navItems = ["Projects", "Teaching"];
+const navItems = ["Projects"];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,16 +45,7 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <img
-                className="block lg:hidden h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                alt="Workflow"
-              />
-              <img
-                className="hidden lg:block h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                alt="Workflow"
-              />
+              {/* placeholder for logo */}
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">

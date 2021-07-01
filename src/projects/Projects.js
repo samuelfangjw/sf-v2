@@ -12,7 +12,7 @@ const Projects = () => {
           projects as well as open-source software I regularly contribute to.
         </p>
       </div>
-      <div className="flex">
+      <div className="flex flex-wrap justify-center">
         {projectdescriptions.map((project, idx) => (
           <ProjectCard {...project} key={idx} />
         ))}
