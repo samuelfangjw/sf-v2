@@ -2,6 +2,7 @@ import teammatesImg from "./projectimages/teammates.png";
 import sourceacademyImg from "./projectimages/sourceacademy.png";
 import colabImg from "./projectimages/colab.png";
 import luminderImg from "./projectimages/luminder.png";
+import foodcacheImg from "./projectimages/foodcache.png";
 
 const teammates = {
   name: "TEAMMATES",
@@ -31,6 +32,19 @@ const luminder = {
   image: luminderImg,
 };
 
-const projectdescriptions = [teammates, sourceAcademy, colab, luminder];
+const foodcache = {
+  name: "FoodCache",
+  description:
+    "FoodCache is a food management mobile app that helps reduce food wastage by keeping track of expiring ingredients, suggesting recipes for meals to minimize food waste and acting as a platform to share excess food and ingredients with friends and family.",
+  image: foodcacheImg,
+};
+
+const projectdescriptions = [
+  teammates,
+  sourceAcademy,
+  colab,
+  luminder,
+  foodcache,
+];
 
 export default projectdescriptions;
