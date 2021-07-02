@@ -4,7 +4,7 @@ import projectdescriptions from "./ProjectDescriptions";
 
 const Projects = () => {
   return (
-    <section className="mt-5">
+    <section className="pt-5 bg-gray-100">
       <div className="container m-auto text-center">
         <h1 className="font-semibold text-3xl mb-1">Projects</h1>
         <p className="mx-1">

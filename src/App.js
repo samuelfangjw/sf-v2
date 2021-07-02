@@ -5,12 +5,12 @@ import Projects from "./projects/Projects";
 
 const App = () => {
   return (
-    <>
+    <div className="text-gray-800">
       <Navbar />
       <Hero />
       <div id="projects" />
       <Projects />
-    </>
+    </div>
   );
 };
 
