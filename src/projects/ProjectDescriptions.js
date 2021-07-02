@@ -16,7 +16,7 @@ const teammates = {
 const sourceAcademy = {
   name: "Source Academy",
   description:
-    "The Source Academy is a computer-mediated learning environment for studying the structure and interpretation of computer programs. My primary responsibility was the development of an online interactive textbook where readers can run code snippets from within the textbook.",
+    "The Source Academy is a computer-mediated learning environment for studying the structure and interpretation of computer programs. My primary responsibility was the development of an online interactive textbook where readers can play with code snippets without leaving the context of the textbook.",
   image: sourceacademyImg,
   tech: ["react", "node", "ts", "js"],
   link: "https://sourceacademy.org/sicpjs/index",
