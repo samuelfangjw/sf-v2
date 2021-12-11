@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://samuelfangjw.com",
   "dependencies": {
-    "@craco/craco": "^6.4.1",
+    "@craco/craco": "^6.4.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
