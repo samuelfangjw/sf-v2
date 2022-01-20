@@ -1,5 +1,7 @@
 import teammatesImg from "./projectimages/teammates.png";
 import sourceacademyImg from "./projectimages/sourceacademy.png";
+import strawhatsImg from "./projectimages/strawhats.png";
+import carboneconomyImg from "./projectimages/carboneconomy.png";
 import colabImg from "./projectimages/colab.png";
 import luminderImg from "./projectimages/luminder.png";
 import foodcacheImg from "./projectimages/foodcache.png";
@@ -7,7 +9,7 @@ import foodcacheImg from "./projectimages/foodcache.png";
 const teammates = {
   name: "TEAMMATES",
   description:
-    "An online feedback management system for education used by more than 600,000 users worldwide.",
+    "An online feedback management system for education used by more than 800,000 users worldwide.",
   image: teammatesImg,
   tech: ["angular", "googlecloud", "ts", "javaee"],
   link: "https://github.com/TEAMMATES/teammates",
@@ -20,6 +22,24 @@ const sourceAcademy = {
   image: sourceacademyImg,
   tech: ["react", "node", "ts", "js"],
   link: "https://sourceacademy.org/sicpjs/index",
+};
+
+const strawhats = {
+  name: "StrawHats",
+  description:
+    "A scalable web action site for collectibles with live video streaming capabilities.",
+  image: strawhatsImg,
+  tech: ["react", "aws", "node", "express", "docker", "socketio", "mux", "js"],
+  link: "https://github.com/StrawHats12/CS3219_strawhats",
+};
+
+const carboneconomy = {
+  name: "Carbon Economy",
+  description:
+    "An API and online Dashboard that helps tackle carbon pollution. Carbon Economy incentivises businesses and consumers to make greener decisions through our green credits system and smart visualisation dashboard backed by a cryptographically verifiable transactions.",
+  image: carboneconomyImg,
+  tech: ["react", "aws", "node", "express", "deckgl", "js"],
+  link: "https://github.com/CarbonEconomy/CarbonEconomy",
 };
 
 const colab = {
@@ -52,6 +72,8 @@ const foodcache = {
 const projectdescriptions = [
   teammates,
   sourceAcademy,
+  strawhats,
+  carboneconomy,
   colab,
   luminder,
   foodcache,

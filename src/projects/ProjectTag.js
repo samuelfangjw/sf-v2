@@ -36,9 +36,29 @@ export const tagNames = {
     color: colors.blue,
     name: "Android Studio",
   },
+  deckgl: {
+    color: colors.blue,
+    name: "deck.gl",
+  },
   javafx: {
     color: colors.blue,
     name: "JavaFX",
+  },
+  aws: {
+    color: colors.yellow,
+    name: "AWS",
+  },
+  docker: {
+    color: colors.yellow,
+    name: "Docker",
+  },
+  socketio: {
+    color: colors.yellow,
+    name: "Socket.IO",
+  },
+  mux: {
+    color: colors.yellow,
+    name: "MUX",
   },
   express: {
     color: colors.yellow,
