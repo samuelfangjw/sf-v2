@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2b744b7.chunk.css",
+    "main.js": "/static/js/main.c08cbdf3.chunk.js",
+    "main.js.map": "/static/js/main.c08cbdf3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.abcfa07f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.abcfa07f.js.map",
+    "static/js/2.5288e2b1.chunk.js": "/static/js/2.5288e2b1.chunk.js",
+    "static/js/2.5288e2b1.chunk.js.map": "/static/js/2.5288e2b1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a2b744b7.chunk.css.map": "/static/css/main.a2b744b7.chunk.css.map",
+    "static/js/2.5288e2b1.chunk.js.LICENSE.txt": "/static/js/2.5288e2b1.chunk.js.LICENSE.txt",
+    "static/media/carboneconomy.c93760eb.png": "/static/media/carboneconomy.c93760eb.png",
+    "static/media/colab.453e4510.png": "/static/media/colab.453e4510.png",
+    "static/media/foodcache.4ac734cd.png": "/static/media/foodcache.4ac734cd.png",
+    "static/media/strawhats.aeff3b4f.png": "/static/media/strawhats.aeff3b4f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abcfa07f.js",
+    "static/js/2.5288e2b1.chunk.js",
+    "static/css/main.a2b744b7.chunk.css",
+    "static/js/main.c08cbdf3.chunk.js"
+  ]
+}
