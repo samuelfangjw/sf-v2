@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -17,13 +17,11 @@ const socialButton = (icon, link) => (
 
 const email = socialButton(faEnvelope, mailto);
 const github = socialButton(faGithub, links.github);
-const linkedin = socialButton(faLinkedin, links.linkedin);
 
 const socials = (
   <div className="mt-3">
     {email}
     {github}
-    {linkedin}
   </div>
 );
 
@@ -36,7 +34,7 @@ const Hero = () => {
             Hi there! 👋 I&apos;m Samuel,
           </h1>
           <p>
-            a computer science student at the National University of Singapore.
+            a passionate software engineer and computer science student at the National University of Singapore.
           </p>
           {socials}
         </div>
