@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2b744b7.chunk.css",
-    "main.js": "/static/js/main.c08cbdf3.chunk.js",
-    "main.js.map": "/static/js/main.c08cbdf3.chunk.js.map",
+    "main.css": "/static/css/main.478f583e.chunk.css",
+    "main.js": "/static/js/main.0d8fb60e.chunk.js",
+    "main.js.map": "/static/js/main.0d8fb60e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.abcfa07f.js",
     "runtime-main.js.map": "/static/js/runtime-main.abcfa07f.js.map",
     "static/js/2.5288e2b1.chunk.js": "/static/js/2.5288e2b1.chunk.js",
     "static/js/2.5288e2b1.chunk.js.map": "/static/js/2.5288e2b1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a2b744b7.chunk.css.map": "/static/css/main.a2b744b7.chunk.css.map",
+    "static/css/main.478f583e.chunk.css.map": "/static/css/main.478f583e.chunk.css.map",
     "static/js/2.5288e2b1.chunk.js.LICENSE.txt": "/static/js/2.5288e2b1.chunk.js.LICENSE.txt",
     "static/media/carboneconomy.c93760eb.png": "/static/media/carboneconomy.c93760eb.png",
     "static/media/colab.453e4510.png": "/static/media/colab.453e4510.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.abcfa07f.js",
     "static/js/2.5288e2b1.chunk.js",
-    "static/css/main.a2b744b7.chunk.css",
-    "static/js/main.c08cbdf3.chunk.js"
+    "static/css/main.478f583e.chunk.css",
+    "static/js/main.0d8fb60e.chunk.js"
   ]
 }
