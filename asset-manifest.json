@@ -5,11 +5,11 @@
     "main.js.map": "/static/js/main.0d8fb60e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.abcfa07f.js",
     "runtime-main.js.map": "/static/js/runtime-main.abcfa07f.js.map",
-    "static/js/2.5288e2b1.chunk.js": "/static/js/2.5288e2b1.chunk.js",
-    "static/js/2.5288e2b1.chunk.js.map": "/static/js/2.5288e2b1.chunk.js.map",
+    "static/js/2.a5aa9e6d.chunk.js": "/static/js/2.a5aa9e6d.chunk.js",
+    "static/js/2.a5aa9e6d.chunk.js.map": "/static/js/2.a5aa9e6d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.478f583e.chunk.css.map": "/static/css/main.478f583e.chunk.css.map",
-    "static/js/2.5288e2b1.chunk.js.LICENSE.txt": "/static/js/2.5288e2b1.chunk.js.LICENSE.txt",
+    "static/js/2.a5aa9e6d.chunk.js.LICENSE.txt": "/static/js/2.a5aa9e6d.chunk.js.LICENSE.txt",
     "static/media/carboneconomy.c93760eb.png": "/static/media/carboneconomy.c93760eb.png",
     "static/media/colab.453e4510.png": "/static/media/colab.453e4510.png",
     "static/media/foodcache.4ac734cd.png": "/static/media/foodcache.4ac734cd.png",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.abcfa07f.js",
-    "static/js/2.5288e2b1.chunk.js",
+    "static/js/2.a5aa9e6d.chunk.js",
     "static/css/main.478f583e.chunk.css",
     "static/js/main.0d8fb60e.chunk.js"
   ]
