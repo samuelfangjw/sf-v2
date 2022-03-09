@@ -85,7 +85,7 @@ export const tagNames = {
 const ProjectTag = (props) => {
   const tag = tagNames[props.name];
   const { name, color } = tag;
-  const className = "block p-1 m-1 w-max text-xs rounded" + " " + color;
+  const className = "block p-1 m-1 w-max text-xs rounded " + color;
 
   return <span className={className}>{name}</span>;
 };
