@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.478f583e.chunk.css",
-    "main.js": "/static/js/main.0d8fb60e.chunk.js",
-    "main.js.map": "/static/js/main.0d8fb60e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.abcfa07f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.abcfa07f.js.map",
-    "static/js/2.a5aa9e6d.chunk.js": "/static/js/2.a5aa9e6d.chunk.js",
-    "static/js/2.a5aa9e6d.chunk.js.map": "/static/js/2.a5aa9e6d.chunk.js.map",
+    "main.css": "/static/css/main.35a14abe.css",
+    "main.js": "/static/js/main.d27f2748.js",
+    "static/media/foodcache.png": "/static/media/foodcache.4ac734cdd88574bff559.png",
+    "static/media/colab.png": "/static/media/colab.453e45101d817bb2ad86.png",
+    "static/media/carboneconomy.png": "/static/media/carboneconomy.c93760ebe15127756650.png",
+    "static/media/strawhats.png": "/static/media/strawhats.aeff3b4fb960725d9413.png",
     "index.html": "/index.html",
-    "static/css/main.478f583e.chunk.css.map": "/static/css/main.478f583e.chunk.css.map",
-    "static/js/2.a5aa9e6d.chunk.js.LICENSE.txt": "/static/js/2.a5aa9e6d.chunk.js.LICENSE.txt",
-    "static/media/carboneconomy.c93760eb.png": "/static/media/carboneconomy.c93760eb.png",
-    "static/media/colab.453e4510.png": "/static/media/colab.453e4510.png",
-    "static/media/foodcache.4ac734cd.png": "/static/media/foodcache.4ac734cd.png",
-    "static/media/strawhats.aeff3b4f.png": "/static/media/strawhats.aeff3b4f.png"
+    "main.35a14abe.css.map": "/static/css/main.35a14abe.css.map",
+    "main.d27f2748.js.map": "/static/js/main.d27f2748.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.abcfa07f.js",
-    "static/js/2.a5aa9e6d.chunk.js",
-    "static/css/main.478f583e.chunk.css",
-    "static/js/main.0d8fb60e.chunk.js"
+    "static/css/main.35a14abe.css",
+    "static/js/main.d27f2748.js"
   ]
 }
