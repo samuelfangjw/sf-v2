@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f63c17df.css",
-    "main.js": "/static/js/main.69611911.js",
+    "main.js": "/static/js/main.b18605d0.js",
     "static/media/foodcache.png": "/static/media/foodcache.4ac734cdd88574bff559.png",
     "static/media/colab.png": "/static/media/colab.453e45101d817bb2ad86.png",
     "static/media/carboneconomy.png": "/static/media/carboneconomy.c93760ebe15127756650.png",
     "static/media/strawhats.png": "/static/media/strawhats.aeff3b4fb960725d9413.png",
     "index.html": "/index.html",
     "main.f63c17df.css.map": "/static/css/main.f63c17df.css.map",
-    "main.69611911.js.map": "/static/js/main.69611911.js.map"
+    "main.b18605d0.js.map": "/static/js/main.b18605d0.js.map"
   },
   "entrypoints": [
     "static/css/main.f63c17df.css",
-    "static/js/main.69611911.js"
+    "static/js/main.b18605d0.js"
   ]
 }
